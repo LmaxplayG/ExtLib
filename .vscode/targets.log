@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 28 09:17:43 2022
+# Make data base, printed on Tue Jun 28 10:39:11 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -23,11 +25,11 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\Lmaxplay\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-56a6f680-66b7-4d8c-aad2-cbab6a2c59c2-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-773a37d8-da18-4738-91e9-26d854246748-sock
 # environment
-WSLENV = BASH_ENV/u
+WSLENV = WT_SESSION:BASH_ENV/u:WT_PROFILE_ID
 # environment
-VSCODE_CWD = C:\Program Files\Microsoft VS Code
+VSCODE_CWD = C:\Users\Lmaxplay\Projects\ExtLib
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -35,7 +37,7 @@ SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Users\Lmaxplay\Documents\PowerShell\Modules;C:\Program Files\PowerShell\Modules;c:\program files\powershell\7\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # environment
@@ -44,6 +46,8 @@ GOPATH = C:\Users\Lmaxplay\go
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
 CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17956_GXXFYORNSPLJOHMW
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -108,6 +112,8 @@ CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
 POSH_THEMES_PATH = C:\Users\Lmaxplay\AppData\Local\Programs\oh-my-posh\themes
+# environment
+WT_PROFILE_ID = {574e775e-4f2a-5b96-ac1e-a2962a402336}
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -137,7 +143,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\gsudo\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files (x86)\dotnet\;C:\Program Files\Neovim\/bin;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\PowerShell\7\;C:\Users\Lmaxplay\AppData\Roaming\Python\Python310\Scripts;C:\Users\Lmaxplay\.cargo\bin;C:\Users\Lmaxplay\scoop\shims;C:\Users\Lmaxplay\AppData\Local\Microsoft\WindowsApps;C:\Users\Lmaxplay\.dotnet\tools;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Users\Lmaxplay\Programs\GNUGlobal\bin;C:\tools\dart-sdk\bin;C:\Users\Lmaxplay\AppData\Roaming\Pub\Cache\bin;C:\Users\Lmaxplay\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Lmaxplay\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Lmaxplay\go\bin
+PATH = C:\Program Files\PowerShell\7;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\gsudo\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files (x86)\dotnet\;C:\Program Files\Neovim\/bin;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\PowerShell\7\;C:\Users\Lmaxplay\AppData\Roaming\Python\Python310\Scripts;C:\Users\Lmaxplay\.cargo\bin;C:\Users\Lmaxplay\scoop\shims;C:\Users\Lmaxplay\AppData\Local\Microsoft\WindowsApps;C:\Users\Lmaxplay\.dotnet\tools;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Users\Lmaxplay\Programs\GNUGlobal\bin;C:\tools\dart-sdk\bin;C:\Users\Lmaxplay\AppData\Roaming\Pub\Cache\bin;C:\Users\Lmaxplay\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;C:\Users\Lmaxplay\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Lmaxplay\go\bin;C:/msys64/mingw64/bin
 # environment
 COMPUTERNAME = LMAXPC
 # default
@@ -150,6 +156,8 @@ PROMPT = $P$G
 CHOCOLATEYLASTPATHUPDATE = 132920968076353344
 # environment
 NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+WT_SESSION = b6e4237b-75bf-4f58-99d8-9f09b3fe765a
 # environment
 LOGONSERVER = \\LMAXPC
 # environment
@@ -167,7 +175,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 NO_PROXY = 127.0.0.1
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
 # automatic
 +F = $(notdir $+)
 # environment
@@ -181,7 +189,7 @@ GNUMAKEFLAGS :=
 # environment
 OS = Windows_NT
 # environment
-PLATFORMIO_PATH = C:\Users\Lmaxplay\.platformio\python3;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\gsudo\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files (x86)\dotnet\;C:\Program Files\Neovim\/bin;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\PowerShell\7\;C:\Users\Lmaxplay\AppData\Roaming\Python\Python310\Scripts;C:\Users\Lmaxplay\.cargo\bin;C:\Users\Lmaxplay\scoop\shims;C:\Users\Lmaxplay\AppData\Local\Microsoft\WindowsApps;C:\Users\Lmaxplay\.dotnet\tools;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Users\Lmaxplay\Programs\GNUGlobal\bin;C:\tools\dart-sdk\bin;C:\Users\Lmaxplay\AppData\Roaming\Pub\Cache\bin;C:\Users\Lmaxplay\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Lmaxplay\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Lmaxplay\go\bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\gsudo\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files (x86)\dotnet\;C:\Program Files\Neovim\/bin;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\PowerShell\7\;C:\Users\Lmaxplay\AppData\Roaming\Python\Python310\Scripts;C:\Users\Lmaxplay\.cargo\bin;C:\Users\Lmaxplay\scoop\shims;C:\Users\Lmaxplay\AppData\Local\Microsoft\WindowsApps;C:\Users\Lmaxplay\.dotnet\tools;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Users\Lmaxplay\Programs\GNUGlobal\bin;C:\tools\dart-sdk\bin;C:\Users\Lmaxplay\AppData\Roaming\Pub\Cache\bin;C:\Users\Lmaxplay\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Lmaxplay\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Lmaxplay\go\bin
+PLATFORMIO_PATH = C:\Users\Lmaxplay\.platformio\python3;C:\Program Files\PowerShell\7;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\gsudo\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files (x86)\dotnet\;C:\Program Files\Neovim\/bin;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\PowerShell\7\;C:\Users\Lmaxplay\AppData\Roaming\Python\Python310\Scripts;C:\Users\Lmaxplay\.cargo\bin;C:\Users\Lmaxplay\scoop\shims;C:\Users\Lmaxplay\AppData\Local\Microsoft\WindowsApps;C:\Users\Lmaxplay\.dotnet\tools;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Users\Lmaxplay\Programs\GNUGlobal\bin;C:\tools\dart-sdk\bin;C:\Users\Lmaxplay\AppData\Roaming\Pub\Cache\bin;C:\Users\Lmaxplay\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;C:\Users\Lmaxplay\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Lmaxplay\go\bin;C:/msys64/mingw64/bin;C:\Program Files\PowerShell\7;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.1.1\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\gsudo\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files (x86)\dotnet\;C:\Program Files\Neovim\/bin;C:\Users\Lmaxplay\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\PowerShell\7\;C:\Users\Lmaxplay\AppData\Roaming\Python\Python310\Scripts;C:\Users\Lmaxplay\.cargo\bin;C:\Users\Lmaxplay\scoop\shims;C:\Users\Lmaxplay\AppData\Local\Microsoft\WindowsApps;C:\Users\Lmaxplay\.dotnet\tools;C:\ProgramData\chocolatey\lib\mingw\tools\install\mingw64\bin;C:\Users\Lmaxplay\Programs\GNUGlobal\bin;C:\tools\dart-sdk\bin;C:\Users\Lmaxplay\AppData\Roaming\Pub\Cache\bin;C:\Users\Lmaxplay\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;C:\Users\Lmaxplay\AppData\Local\Programs\oh-my-posh\bin;C:\Users\Lmaxplay\go\bin;C:/msys64/mingw64/bin
 # environment
 CUDA_PATH_V11_6 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
 # environment
@@ -230,6 +238,10 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -239,7 +251,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=13/141=9%
+# Load=119/1024=12%, Rehash=0, Collisions=14/147=10%
 
 # Pattern-specific Variable Values
 
@@ -247,7 +259,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Lmaxplay/Projects/ExtLib, mtime 1649086438): 16 files, no impossibilities.
+# . (key c:/Users/Lmaxplay/Projects/ExtLib, mtime 1656402357): 16 files, no impossibilities.
 
 # 16 files, no impossibilities in 1 directories.
 
@@ -305,6 +317,6 @@ build:
 # strcache performance: lookups = 28 / hit rate = 25%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=0/28=0%
-# Finished Make data base on Tue Jun 28 09:17:43 2022
+# Finished Make data base on Tue Jun 28 10:39:11 2022
 
  

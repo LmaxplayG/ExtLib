@@ -8,7 +8,6 @@
 #include "lib/getExecutableName.h" // Currently unused
 #include "lib/ansi.hpp"
 #include "lib/vector.hpp"
-#include "lib/thread.hpp"
 // #include "lib/time.hpp"
 #include "lib/sleep.hpp"
 #include "lib/math.hpp"
