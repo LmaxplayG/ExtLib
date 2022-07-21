@@ -17,6 +17,8 @@ int main() {
 
     std::atexit(ansi::resetconsole);
 
+    std::cout << "Hi\n";
+
     return 0;
 
 }
